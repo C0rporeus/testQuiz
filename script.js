@@ -69,11 +69,11 @@ function selectAnswer(e) {
     const total = result.reduce((a, b) => a + b, 0);
     alert(total);
     if (total >= 3) {
-      alert("You are a genius!");
+      alert("¡Genial aprobaste!");
     } else {
-      alert("You are a loser!");
+      alert("¡No fue suficiente, perdiste!");
     }
-    startButton.innerText = 'Restart'
+    startButton.innerText = 'Reiniciar'
     startButton.classList.remove('hide')
   }
 
